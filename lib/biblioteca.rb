@@ -5,12 +5,12 @@ class Biblioteca
     @livros = {}#Inicia um hash
   end
 
-  def adicionar(livro)
+  def adiciona(livro)
     @livros[livro.categoria] ||= []
-    @livros[livros.categoria] << livro
+    @livros[livro.categoria] << livro
   end
 
   def livros
-    @livros.value.flatten
+    @livros.values.flatten
   end
 end
