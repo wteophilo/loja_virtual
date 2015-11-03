@@ -20,7 +20,7 @@ class Livro
   def hash
     @isbn.hash
   end
-  
+
   def to_s
     "Autor: #{@autor}, Isbn: #{@isbn}, Páginas: #{@numero_de_paginas},Categoria: #{@categoria}, Preço: #{@preco}"
   end
